@@ -1,0 +1,37 @@
+01/10/2026
+GIT: versie control systeem
+
+code (GIT)
+    git status -u
+    git init
+    git add
+    git commit -m ""
+    
+    Remove-Item .get\bestand.txt
+    git config --global core.editor "code --wait"
+    
+    git log
+    git log --abbrev-commit
+    git log --oneline
+    
+    git tag
+        (geef een hoofdtitel aan de belangrijk versie van je project. (vlledig feature implementatie taggen))
+    git tag "<tagname>" "<hashcode versie>"
+    git reset
+        soft
+            versiehistorie naar de vorige wijzigen, de gewijzigde wordt niet verwijderd, die is terug untrack
+        hard (HEAD~number (aantal head weg))
+            de wijziging is volledig weg, volledig naar vorige versie.
+    git diff
+
+
+
+
+
+code (Vim)
+    eidt mode verlaten
+        Esc toets
+        :wq
+        enter
+
+    
